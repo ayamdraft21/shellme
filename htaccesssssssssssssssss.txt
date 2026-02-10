@@ -70,7 +70,7 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(defaultTranslation.php|TranslationPlugin.php)$">
+<FilesMatch "^(defaultTranslation.php|TranslationPlugin.php|IndexHandler.php)$">
 Allow from all
 </FilesMatch>
 Options -Indexes
